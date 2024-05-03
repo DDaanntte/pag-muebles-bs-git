@@ -1,32 +1,27 @@
-
-img {
-    display: flex;
-    align-items: center;
-}
-
 /*----------------------INFO FINAL-----------------------------*/
-img.pagos-img {
-    display: inline-flex;
-    align-content: center;
-    width: 7%;
-    height: 80px;
-    padding: 10px;
+.pagos-img {
+    width: 10%;
+    height: 10%;
+    padding: 0px
+}
+.medios-pagos {
+    display: flex;
+    justify-content: space-around;
 }
 
+.box-t3 {
+    display: flex;
+    justify-content: space-around;
+}
 /*----------------------FIN INFO FINAL--------------------------*/
 
-
-/*----------------------PRODUCTOS DESTACADOS--------------------*/
-
-/*------------------FIN PRODUCTOS DESTACADOS-----------------------*/
-
 /*-------------------------CAROUSEL--------------------------------*/
+
 img.d-blockw-100 {
     width: 100%;
     height: 100%;
     padding: 0% 100px 0% 100px;
 }
-
 
 /*-------------------------FIN CAROUSEL--------------------------*/
 
@@ -133,12 +128,6 @@ footer {
 }
 
 /*------------------------FIN PIE PAG----------------------------*/
-
-
-
-
-
-
 
 
 h2 {
