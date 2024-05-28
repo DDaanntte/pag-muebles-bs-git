@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+//--------------SASS config----------------
+$color1: rgb(100, 134, 55);//color principal
+$color2: rgb(255, 255, 255);//blancos
+$color3: rgb(141, 170, 102);//color secundario
+$color4: #000000;//negros
+$color5: #ebe2c6;//color crema
+$color6: #413d3d;//gris opaco
+$color8: #21bd4a;//verde correcto
+$color7: #dc3545;//rojo incorrecto
+
+$font1: 'Rubik', sans-serif;
+$size1: 12px;//medida chica en px
+$size2: 24px;//medida mediana en px
+$size3: 36px;//medida xl en px
+$size4: 48px;//medida xxl en px
+
+$transition3: 0.3s;
+
+// _functions.scss
+@function calculate-rem($size-px) {
+    $base-font-size: 16px;
+    @return #{$size-px / $base-font-size}rem;
+    }
+
+@mixin disback ($border, $display, $bgcolor) {
+        border: $border;
+        display: $display;
+        background-color: $bgcolor;
+    }
+
+@mixin link ($font, $texdec, $color) {
+    font-family: $font;
+    text-decoration: $texdec;
+    color: $color;
+}
+

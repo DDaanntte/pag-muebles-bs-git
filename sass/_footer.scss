@@ -1,0 +1,38 @@
+//--------------------------------PIE PAG------------------------------
+body {
+    font-family: $font1;
+    height: 100%;
+    background-color: $color4 ;
+}
+h3 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 300px) / (1600 - 360))) !important;
+}
+p {font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 360))) !important;
+}
+footer {
+    color: $color5 !important;
+}
+.row-1 {
+    background-color: $color4!important;
+}
+.row-2 {
+    background-color: $color1 !important;
+}
+//--------------------------FIN PIE PAG-------------------------------
+
+//---------------------------INFO FINAL-------------------------------
+.pagos-img {
+    width: 10%;
+    height: 10%;
+    padding: 0px
+}
+.medios-pagos {
+    display: flex;
+    justify-content: space-around;
+}
+.box-t3 {
+    display: flex;
+    justify-content: space-around;
+}
+//----------------------------FIN INFO FINAL---------------------------
+
