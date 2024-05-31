@@ -1,0 +1,60 @@
+SEO
+    Para optimizar el ceo fue necesario utilizar las palabras clabes correctas, me ayude de 
+    ( https://ads.google.com/intl/es_es/home/tools/keyword-planner/ ) para utilizar las mas buscadas,
+    y tambien agrege una descripcion unica a cada .html para optimizar la experiencia del usuario
+    para ello emplee la funcion <meta>:
+
+index.html
+    <meta name="description=" content="MUEBLES EN METAL Y MADERA PARA TU HOGAR,
+    PRODUCTOS DE ALTISIMA CALIDAD, TRABAJADOS CON TENDENCIAS DE LA INDUSTRIA.">
+
+    <meta name="autor" content="Dante Dellacarbonara">
+
+    <meta name="keywords" content="muebles, ofertas, metal, madera, deco, decoracion, hogar, casa, productos, calidad, tendencias, obten, adquiere, compra, 
+    instagram, contacto, creacion, arte, mesa, silla, estanteria, biblioteca, patio, escritorio, estantes, estanterias, sillones, empresas,
+    muebleria, argentina, nuevo, medida, programacion, html, css, sass, bootstrap">
+
+    productos.html
+        <meta name="description=" content="Aca podes adquirir los mejores muebles ajustados a tu nececidad, ¡compra ya!">
+
+        <meta name="autor" content="Dante Dellacarbonara">
+
+        <meta name="keywords" content="muebles, ofertas, metal, madera, deco, decoracion, hogar, casa, productos, calidad, tendencias, obten, adquiere, compra, 
+        instagram, contacto, creacion, arte, mesa, silla, estanteria, biblioteca, patio, escritorio, estantes, estanterias, sillones, empresas,
+        muebleria, argentina, nuevo, medida, programacion, html, css, sass, bootstrap">
+
+    carrito.html
+        <meta name="description=" content="Tus productos favoritos a un click de ser parte de tu dia a dia, ¡compra ya!">
+
+        <meta name="autor" content="Dante Dellacarbonara">
+
+        <meta name="keywords" content="muebles, ofertas, metal, madera, deco, decoracion, hogar, casa, productos, calidad, tendencias, obten, adquiere, compra, 
+        instagram, contacto, creacion, arte, mesa, silla, estanteria, biblioteca, patio, escritorio, estantes, estanterias, sillones, empresas,
+        muebleria, argentina, nuevo, medida, programacion, html, css, sass, bootstrap">
+
+    form.html
+        <meta name="description=" content="Registrate, contanos tu proyecto y se parte de la familia TODO CONCRETO DECO">
+
+        <meta name="autor" content="Dante Dellacarbonara"> 
+
+        <meta name="keywords" content="muebles, ofertas, metal, madera, deco, decoracion, hogar, casa, productos, calidad, tendencias, obten, adquiere, compra, 
+        instagram, contacto, creacion, arte, mesa, silla, estanteria, biblioteca, patio, escritorio, estantes, estanterias, sillones, empresas,
+        muebleria, argentina, nuevo, medida, programacion, html, css, sass, bootstrap">
+
+    nosotros.html
+        <meta name="description=" content="Somos TODO CONCRETO DECO, tenes una idea? ¡Nosotros la concretamos!">
+
+        <meta name="autor" content="Dante Dellacarbonara">
+
+        <meta name="keywords" content="muebles, ofertas, metal, madera, deco, decoracion, hogar, casa, productos, calidad, tendencias, obten, adquiere, compra, 
+        instagram, contacto, creacion, arte, mesa, silla, estanteria, biblioteca, patio, escritorio, estantes, estanterias, sillones, empresas,
+        muebleria, argentina, nuevo, medida, programacion, html, css, sass, bootstrap">
+
+    Ademas fue necesario aplicar correctamente la funcion y orden de las etiquetas ( <h1>, <h2>, <h3>, <h4>, <h5>, etc)
+    sobre todo la etiqueta <h1> en donde utilize el nombre de la marca <h1>TODO CONCRETO DECO</h1>.
+
+    Tambien use correctamente las etiquetas alt="aportando una descripcion apropiada" a cada img.
+
+    Y a todo esto se le suma el uso de una barra de navegacion ( https://getbootstrap.com/ ) completa para el facil acceso a las distintas partes de 
+    la web ademas de el uso de animaciones ( https://michalsnik.github.io/aos/ ) para crear una experiencia interactiva con la misma creando asi en el usuario
+    un interes genuino en navegar por el sitio.
