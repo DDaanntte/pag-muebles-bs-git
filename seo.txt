@@ -1,7 +1,7 @@
 SEO
-    Para optimizar el ceo fue necesario utilizar las palabras clabes correctas, me ayude de 
+    Para optimizar el seo fue necesario utilizar las palabras clabes correctas, me ayude de 
     ( https://ads.google.com/intl/es_es/home/tools/keyword-planner/ ) para utilizar las mas buscadas,
-    y tambien agrege una descripcion unica a cada .html para optimizar la experiencia del usuario
+    tambien agrege una descripcion unica a cada .html para optimizar la experiencia del usuario
     para ello emplee la funcion <meta>:
 
 index.html
