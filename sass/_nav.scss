@@ -1,15 +1,14 @@
 //------------------------ENCABEZADO----------------------------
-.encabezado p.negro {
-    @include link ($font1, none, $color4);
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: $color3;
-    padding: 80px 0% 1% 0%;
-    margin-bottom: 0px;
+.encabezado{
+    .negro {
+        @include link ($font1, none, $color4);
+        text-align: center;
+        background-color: $color3;
+        padding: 97px 0% 1% 0%;
+        margin-bottom: 0px;
+    }
 }
-//----------------------FIN ENCABEZADO--------------------------
-
+//---------------------FIN ENCABEZADO--------------------------
 //---------------------------NAVAR-------------------------------
 h1{
     font-size: calculate-rem(32px);
@@ -40,7 +39,7 @@ h1{
 }
 .offcanvas-header {
     display: flex;
-    align-items: center;
+    justify-items: center;
     justify-content: space-between;
     padding: 1rem 1rem;
     background-color: $color4;

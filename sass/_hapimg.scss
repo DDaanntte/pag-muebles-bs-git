@@ -1,0 +1,218 @@
+//----------------------------PRIMARIOS----------------------------
+h2 {
+    font-size: calculate-rem(32px);
+    @include link($font1, none, $color4);
+    border: $color1 solid;
+    text-align: center;
+    background-color: $color1;
+    padding-bottom: $size1
+}
+a {
+    @include link($font1, none, $color4);
+    transition: color $transition3;
+    &:hover {
+        color: $color2;
+    }
+}
+.blanca {
+    @include link($font1, none, $color2);
+    transition: color $transition3;
+    &:hover {
+        color: $color4;
+    }
+}
+.box {
+    .boxmas {
+        .blanca-verde {
+            @include link($font1, none, $color2);
+            transition: color $transition3;
+            &:hover {
+                color: $color1;
+            }
+        }
+    }
+    
+}
+//...........botones..............
+.boton {
+    @include link($font1, none, $color4);
+    @include disback($color2 solid, inline-flex, none);
+    justify-content: center;
+    justify-items: center;
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+}
+.direccion {
+    text-align: center;
+    .boton-compra {
+        @extend .boton;
+        background-color: $color1;
+        transition: color $transition3;
+            &:hover {
+                color: $color2;
+            }
+    }
+    .boton-compra-claro {
+        @extend .boton;
+        background-color: $color3;
+        transition: color $transition3;
+            &:hover {
+                color: $color5;
+            }
+    }
+}
+//..........fin botones............
+//.............fondo...............
+.fondo {
+    height: 100%;
+        --s: 72px;
+        /* control the size*/
+        --c1: #413d3d36;
+        --c2: #000000;
+
+        --_g: #0000 52%, var(--c1) 54% 57%, #0000 59%;
+        background:
+            radial-gradient(farthest-side at -33.33% 50%, var(--_g)) 0 calc(var(--s)/2),
+            radial-gradient(farthest-side at 50% 133.33%, var(--_g)) calc(var(--s)/2) 0,
+            radial-gradient(farthest-side at 133.33% 50%, var(--_g)),
+            radial-gradient(farthest-side at 50% -33.33%, var(--_g)),
+            var(--c2);
+        background-size: calc(var(--s)/4.667) var(--s), var(--s) calc(var(--s)/4.667);
+}
+.fondo2 {
+    --s: 72px; /* control the size*/
+    --c1: #64863760;
+    --c2: #000000;
+    
+    --_g: #0000 52%,var(--c1) 54% 57%,#0000 59%; 
+    background: 
+        radial-gradient(farthest-side at -33.33% 50%,var(--_g)) 0 calc(var(--s)/2),
+        radial-gradient(farthest-side at 50% 133.33%,var(--_g)) calc(var(--s)/2) 0,
+        radial-gradient(farthest-side at 133.33% 50%,var(--_g)),
+        radial-gradient(farthest-side at 50% -33.33%,var(--_g)),
+        var(--c2);
+    background-size: calc(var(--s)/4.667) var(--s),var(--s) calc(var(--s)/4.667);
+}
+.fondo3 {
+        --s: 27px; /* control the size*/
+        --c1: #000000;
+        --c2: #648637;
+        
+        --g:#0000 66%,var(--c1) 68% 98%,#0000;
+        background:
+            radial-gradient(30% 30% at 0%   30%,var(--g))
+            var(--s) calc(9*var(--s)),
+            radial-gradient(30% 30% at 100% 30%,var(--g))
+            var(--s) calc(-1*var(--s)),
+            radial-gradient(30% 30% at 30% 100%,var(--g))
+            calc(10*var(--s)) 0,
+            radial-gradient(30% 30% at 30% 0%  ,var(--g))
+            var(--c2);
+        background-size: calc(20*var(--s)) calc(20*var(--s));
+}
+.fondo4 {
+        --s: 1px; /* control the size*/
+        --c1: #8daa66cc;
+        --c2: #000000;
+        
+        --g:#0000 66%,var(--c1) 68% 98%,#0000;
+        background:
+            radial-gradient(30% 30% at 0%   30%,var(--g))
+            var(--s) calc(9*var(--s)),
+            radial-gradient(30% 30% at 100% 30%,var(--g))
+            var(--s) calc(-1*var(--s)),
+            radial-gradient(30% 30% at 30% 100%,var(--g))
+            calc(10*var(--s)) 0,
+            radial-gradient(30% 30% at 30% 0%  ,var(--g))
+            var(--c2);
+        background-size: calc(20*var(--s)) calc(20*var(--s));
+}
+.fondo5 {
+        --s: 213px; /* control the size*/
+        --c1: #65883a;
+        --c2: #8daa66;
+        --c3: #395f0b;
+        
+        background:
+            repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 180deg) 
+            calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+            repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 180deg);
+        background-size: var(--s) calc(var(--s)*0.577);
+}
+.fondo6 {
+        --s: 31px; /* control the size*/
+background-color: #648637;
+}
+//..........fin fondo..............
+p {
+    @include link($font1, none, $color2);
+    text-align: center;
+}
+.nosotros-info {
+    @include link($font1, none, $color2);
+    font-size:$size4;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    transition: color $transition3;
+    &:hover {
+        color: $color3;
+    }
+}
+.logo-img {
+    width: 20%;
+    height: 50px;
+}
+.social-img {
+    display: inline-flex;
+    width: 20%;
+    height: 70px;
+    padding: 10px;
+}
+.producto {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+.producto-img {
+    max-width: 220px ;
+    max-height: 300px ;
+    
+    padding: 15px 10px 15px 10px;
+    }
+}
+.img-fluid {
+    width: 30px;
+}
+.instagramqr {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    .qr {
+        
+    width: 30%;
+    height: 30%;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 15px 10px 15px 10px;
+    }
+}
+.img-carri {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    .carrito {
+        width: 110%;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+//-------------------------FIN PRIMARIOS-------------------------
+//-------------------------CAROUSEL------------------------------
+.d-blockw-100 {
+    width: 100%;
+    height: 100%;
+    padding: 0% 100px 0% 100px;
+}
+//-----------------------FIN CAROUSEL--------------------------

@@ -136,3 +136,19 @@
     transform: translateY(-10px);
 }
 //---------------------FIN TODOS LOS PRODUCTOS-----------------
+//------------------------------FORM---------------------------
+form {
+    display: flex;
+    justify-items: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    unicode-bidi: isolate;
+}
+.btn-primary {
+    color: $color4!important;
+    background-color: $color1!important;
+    border-color:$color2!important;
+}
+//----------------------------FIN FORM----------------------

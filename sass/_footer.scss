@@ -19,7 +19,6 @@ footer {
     background-color: $color1 !important;
 }
 //--------------------------FIN PIE PAG-------------------------------
-
 //---------------------------INFO FINAL-------------------------------
 .pagos-img {
     width: 10%;
@@ -28,10 +27,12 @@ footer {
 }
 .medios-pagos {
     display: flex;
+    justify-items: center;
     justify-content: space-around;
 }
 .box-t3 {
     display: flex;
+    justify-items: center;
     justify-content: space-around;
 }
 //----------------------------FIN INFO FINAL---------------------------
